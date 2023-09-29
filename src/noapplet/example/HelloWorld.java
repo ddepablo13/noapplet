@@ -22,7 +22,7 @@ public class HelloWorld extends NoApplet {
 	public HelloWorld(String[] params) {
 		super(params);
 	}
-	
+
     protected void paintComponent(Graphics g) {
         Dimension d = getSize();
         g.setColor(Color.LIGHT_GRAY);
